@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="250dp"
         android:fontFamily="cursive"
-        android:text="Soy un chico que trabaja solo y queria crear un videojuego para android."
+        android:text="Soy un chico que trabaja solo y queria crear un videojuego para android para el instituto."
         android:textColor="#FFFFFF"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
