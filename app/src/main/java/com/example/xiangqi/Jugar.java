@@ -28,21 +28,20 @@ public class Jugar extends AppCompatActivity {
 
         final EditText jugador1 = findViewById(R.id.nplayer1);
         final EditText jugador2 = findViewById(R.id.nplayer2);
-
         final Button guardar1 = findViewById(R.id.infoplayer1);
         final Button guardar2 = findViewById(R.id.infoplayer2);
+
         guardar1.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v) {
                 String nplayer1 = jugador1.getText().toString();
-                String nplayer2 = jugador2.getText().toString();
 
-                if (nplayer1!=("")) {
-                    //LOGIN OK
-                    //Aqui podemos hacer que salga un mensajito un momento abajo    resultat.setText("Login OK");
-                    goToTablero();
-                }else{
+                if (nplayer1.equals("")) {
                     //LOGIN NO OK
+                    //Aqui podemos hacer que salga un mensajito un momento abajo    resultat.setText("Login OK");
+                }else{
+                    //LOGIN OK
                     //ESTO EN EL FUTURO BEIBE  resultat.setText("Login OKN'T");
+                    goToTablero();
                 }
             }
         });
@@ -50,13 +49,14 @@ public class Jugar extends AppCompatActivity {
             public void onClick(View v) {
                 String nplayer2 = jugador2.getText().toString();
 
-                if (nplayer2!=("")) {
-                    //LOGIN OK
-                    //Aqui podemos hacer que salga un mensajito un momento abajo    resultat.setText("Login OK");
-                    goToTablero();
-                }else{
+                if (nplayer2.equals("")) {
                     //LOGIN NO OK
+                    //Aqui podemos hacer que salga un mensajito un momento abajo    resultat.setText("Login OK");
+
+                }else{
+                    //LOGIN OK
                     //ESTO EN EL FUTURO BEIBE  resultat.setText("Login OKN'T");
+                    goToTablero();
                 }
             }
         });
