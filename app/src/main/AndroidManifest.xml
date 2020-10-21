@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Xiangqi">
-        <activity android:name=".SobreNosaltres"></activity>
+        <activity android:name=".Tablero"></activity>
+        <activity android:name=".SobreNosaltres" />
         <activity android:name=".Ajuda" />
         <activity android:name=".Jugar" />
         <activity android:name=".MainActivity">
