@@ -16,53 +16,54 @@ import android.widget.Toast;
  */
 public class Jugar extends AppCompatActivity {
 
+    Button guardar1, guardar2;
+    EditText jugador1, jugador2;
+    TextView resultat;
+    String name1, name2;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_jugar);
 
-        String nombre = "";
-        String nombre2 = "";
-        String color1 = "";
-        String color2 = "";
+        jugador1=(EditText)findViewById(R.id.nplayer1);
+        jugador2=(EditText)findViewById(R.id.nplayer2);
+        guardar1=(Button)findViewById(R.id.infoplayer1);
+        guardar2=(Button)findViewById(R.id.infoplayer2);
+        resultat=(TextView)findViewById(R.id.Resultat);
 
-        final EditText jugador1 = findViewById(R.id.nplayer1);
-        final EditText jugador2 = findViewById(R.id.nplayer2);
-        final Button guardar1 = findViewById(R.id.infoplayer1);
-        final Button guardar2 = findViewById(R.id.infoplayer2);
-
-        guardar1.setOnClickListener(new View.OnClickListener(){
+        guardar1.setOnClickListener(new View.OnClickListener() {
+            @Override
             public void onClick(View v) {
-                String nplayer1 = jugador1.getText().toString();
-
-                if (nplayer1.equals("")) {
+                if (jugador1.equals("")) {
                     //LOGIN NO OK
-                    //Aqui podemos hacer que salga un mensajito un momento abajo    resultat.setText("Login OK");
+                    resultat.setText("No has puesto ningun nombre!");
+
                 }else{
-                    //LOGIN OK
-                    //ESTO EN EL FUTURO BEIBE  resultat.setText("Login OKN'T");
-                    goToTablero();
+                    Intent pasarnombre = new Intent(Jugar.this, Tablero.class);
+                    name1 = jugador1.getText().toString();
+                    pasarnombre.putExtra("NombreJ1", name1);
+                    startActivity(pasarnombre);
+                    finish();
                 }
             }
         });
-        guardar2.setOnClickListener(new View.OnClickListener(){
+
+        guardar2.setOnClickListener(new View.OnClickListener() {
+            @Override
             public void onClick(View v) {
-                String nplayer2 = jugador2.getText().toString();
-
-                if (nplayer2.equals("")) {
+                if (jugador1.equals("")) {
                     //LOGIN NO OK
-                    //Aqui podemos hacer que salga un mensajito un momento abajo    resultat.setText("Login OK");
+                    resultat.setText("No has puesto ningun nombre!");
 
-                }else{
-                    //LOGIN OK
-                    //ESTO EN EL FUTURO BEIBE  resultat.setText("Login OKN'T");
-                    goToTablero();
+                }else {
+                    Intent pasarnombre = new Intent(Jugar.this, Tablero.class);
+                    name2 = jugador2.getText().toString();
+                    pasarnombre.putExtra("NombreJ2", name2);
+                    startActivity(pasarnombre);
+                    finish();
                 }
             }
         });
-    }
-    public void goToTablero(){
-        Intent IntentMenu = new Intent(this,Tablero.class);
-        startActivity(IntentMenu);
     }
 }
