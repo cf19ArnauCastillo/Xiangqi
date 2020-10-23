@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="cursive"
         android:gravity="center"
-        android:text="Soy un chico que trabaja solo y queria crear un videojuego para android para el grado superior, disfurutalo!"
+        android:text="Me llamo Arnau Castillo y tengo 18 años. Me empezo a interesar la idea de crear y no solo destruir, por eso me aventure a meterme a un ciclo superior y desarollar lo que sea, crear este programa para que la gente lo disfrute me llamo la antencion, asi que aqui lo teneis, disfrutarlo! "
         android:textColor="#FFFFFF"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
