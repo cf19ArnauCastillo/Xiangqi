@@ -31,39 +31,43 @@ public class Jugar extends AppCompatActivity {
         guardar1=(Button)findViewById(R.id.infoplayer1);
         guardar2=(Button)findViewById(R.id.infoplayer2);
         resultat=(TextView)findViewById(R.id.Resultat);
-
+        name1="";
+        name2="";
         guardar1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (jugador1.equals("")) {
+                name1 = jugador1.getText().toString();
+                if (name1.equals("")) {
                     //LOGIN NO OK
                     resultat.setText("No has puesto ningun nombre!");
-
-                }else{
-                    Intent pasarnombre = new Intent(Jugar.this, Tablero.class);
-                    name1 = jugador1.getText().toString();
-                    pasarnombre.putExtra("NombreJ1", name1);
-                    startActivity(pasarnombre);
-                    finish();
                 }
+                //Llamar metodo intent
+                checkIntent();
             }
         });
 
         guardar2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (jugador1.equals("")) {
+                name2 = jugador2.getText().toString();
+                if (name2.equals("")) {
                     //LOGIN NO OK
                     resultat.setText("No has puesto ningun nombre!");
-
-                }else {
-                    Intent pasarnombre = new Intent(Jugar.this, Tablero.class);
-                    name2 = jugador2.getText().toString();
-                    pasarnombre.putExtra("NombreJ2", name2);
-                    startActivity(pasarnombre);
-                    finish();
                 }
+                checkIntent();
             }
         });
+    }
+
+
+    public void checkIntent(){
+        if(!name1.equals("") && !name2.equals("")){
+            Intent pasarnombre = new Intent(Jugar.this, Tablero.class);
+            pasarnombre.putExtra("NombreJ1", name1);
+            pasarnombre.putExtra("NombreJ2", name2);
+
+            startActivity(pasarnombre);
+            finish();
+        }
     }
 }
