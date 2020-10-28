@@ -3,6 +3,7 @@ package com.example.xiangqi;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -33,6 +34,7 @@ public class Jugar extends AppCompatActivity {
         resultat=(TextView)findViewById(R.id.Resultat);
         name1="";
         name2="";
+
         guardar1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -58,7 +60,6 @@ public class Jugar extends AppCompatActivity {
             }
         });
     }
-
 
     public void checkIntent(){
         if(!name1.equals("") && !name2.equals("")){
