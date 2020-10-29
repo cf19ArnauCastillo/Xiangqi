@@ -33,6 +33,8 @@
         android:hint=" Nombre J1"
         android:inputType="textPersonName"
         android:rotation="180"
+        android:textColor="#000000"
+        android:textColorHint="#777272"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/infoplayer1" />
 
@@ -83,6 +85,8 @@
         android:ems="10"
         android:hint=" Nombre J2"
         android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textColorHint="#777272"
         app:layout_constraintBottom_toTopOf="@+id/infoplayer2"
         app:layout_constraintStart_toStartOf="parent" />
 
