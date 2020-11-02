@@ -33,7 +33,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/tablero"
         android:layout_width="350dp"
         android:layout_height="350dp"
         app:layout_constraintBottom_toTopOf="@+id/nombre2"
