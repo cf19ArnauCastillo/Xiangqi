@@ -15,4 +15,3 @@ public abstract class Pieza {
 
     public abstract void printGhost(int row, int col, Pieza[][] tablero, int color);
 }
-

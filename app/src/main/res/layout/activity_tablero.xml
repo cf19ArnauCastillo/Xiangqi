@@ -102,5 +102,56 @@
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
         </TableRow>
+
+        <TableRow
+            android:id="@+id/linia2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="35"
+                android:layout_height="35" />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="35"
+                android:layout_height="35" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="35"
+                android:layout_height="35" />
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="35"
+                android:layout_height="35" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="35"
+                android:layout_height="35" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="35"
+                android:layout_height="35" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="35"
+                android:layout_height="35" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="35"
+                android:layout_height="35" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="35"
+                android:layout_height="35" />
+        </TableRow>
     </TableLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
