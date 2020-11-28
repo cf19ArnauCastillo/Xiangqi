@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Xiangqi">
-        <activity android:name=".Tablero"></activity>
+        <activity android:name=".Tablero"/>
         <activity android:name=".SobreNosaltres" />
         <activity android:name=".Ajuda" />
         <activity android:name=".Jugar" />
