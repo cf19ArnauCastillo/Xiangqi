@@ -84,7 +84,8 @@
             <ImageView
                 android:id="@+id/e10"
                 android:layout_width="35dp"
-                android:layout_height="35dp" />
+                android:layout_height="35dp"
+                android:background="@drawable/Blancorey" />
 
             <ImageView
                 android:id="@+id/f10"
