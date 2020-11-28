@@ -58,47 +58,47 @@
             android:layout_height="match_parent">
 
             <ImageView
-                android:id="@+id/a1"
+                android:id="@+id/a10"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/b1"
+                android:id="@+id/b10"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/c1"
+                android:id="@+id/c10"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/d1"
+                android:id="@+id/d10"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/e1"
+                android:id="@+id/e10"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/f1"
+                android:id="@+id/f10"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/g1"
+                android:id="@+id/g10"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/h1"
+                android:id="@+id/h10"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/i1"
+                android:id="@+id/i10"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
         </TableRow>
@@ -109,47 +109,47 @@
             android:layout_height="match_parent">
 
             <ImageView
-                android:id="@+id/a1"
+                android:id="@+id/a9"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/b1"
+                android:id="@+id/b9"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/c1"
+                android:id="@+id/c9"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/d1"
+                android:id="@+id/d9"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/e1"
+                android:id="@+id/e9"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/f1"
+                android:id="@+id/f9"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/g1"
+                android:id="@+id/g9"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/h1"
+                android:id="@+id/h9"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/i1"
+                android:id="@+id/i9"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
         </TableRow>
@@ -160,47 +160,47 @@
             android:layout_height="match_parent">
 
             <ImageView
-                android:id="@+id/a1"
+                android:id="@+id/a8"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/b1"
+                android:id="@+id/b8"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/c1"
+                android:id="@+id/c8"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/d1"
+                android:id="@+id/d8"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/e1"
+                android:id="@+id/e8"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/f1"
+                android:id="@+id/f8"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/g1"
+                android:id="@+id/g8"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/h1"
+                android:id="@+id/h8"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/i1"
+                android:id="@+id/i8"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
         </TableRow>
@@ -211,47 +211,47 @@
             android:layout_height="match_parent">
 
             <ImageView
-                android:id="@+id/a1"
+                android:id="@+id/a7"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/b1"
+                android:id="@+id/b7"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/c1"
+                android:id="@+id/c7"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/d1"
+                android:id="@+id/d7"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/e1"
+                android:id="@+id/e7"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/f1"
+                android:id="@+id/f7"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/g1"
+                android:id="@+id/g7"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/h1"
+                android:id="@+id/h7"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/i1"
+                android:id="@+id/i7"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
         </TableRow>
@@ -262,49 +262,60 @@
             android:layout_height="match_parent">
 
             <ImageView
-                android:id="@+id/a1"
+                android:id="@+id/a6"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/b1"
+                android:id="@+id/b6"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/c1"
+                android:id="@+id/c6"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/d1"
+                android:id="@+id/d6"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/e1"
+                android:id="@+id/e6"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/f1"
+                android:id="@+id/f6"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/g1"
+                android:id="@+id/g6"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/h1"
+                android:id="@+id/h6"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/i1"
+                android:id="@+id/i6"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/rio"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/charco"
+                android:layout_width=""
+                android:layout_height="10dp" />
         </TableRow>
 
         <TableRow
@@ -313,47 +324,47 @@
             android:layout_height="match_parent">
 
             <ImageView
-                android:id="@+id/a1"
+                android:id="@+id/a5"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/b1"
+                android:id="@+id/b5"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/c1"
+                android:id="@+id/c5"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/d1"
+                android:id="@+id/d5"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/e1"
+                android:id="@+id/e5"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/f1"
+                android:id="@+id/f5"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/g1"
+                android:id="@+id/g5"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/h1"
+                android:id="@+id/h5"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/i1"
+                android:id="@+id/i5"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
         </TableRow>
@@ -364,49 +375,54 @@
             android:layout_height="match_parent">
 
             <ImageView
-                android:id="@+id/a1"
+                android:id="@+id/a4"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/Rojopeon" />
+
+            <ImageView
+                android:id="@+id/b4"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/b1"
+                android:id="@+id/c4"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/Rojopeon" />
+
+            <ImageView
+                android:id="@+id/d4"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/c1"
+                android:id="@+id/e4"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/Rojopeon" />
+
+            <ImageView
+                android:id="@+id/f4"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/d1"
+                android:id="@+id/g4"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/Rojopeon" />
+
+            <ImageView
+                android:id="@+id/h4"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/e1"
+                android:id="@+id/i4"
                 android:layout_width="35dp"
-                android:layout_height="35dp" />
-
-            <ImageView
-                android:id="@+id/f1"
-                android:layout_width="35dp"
-                android:layout_height="35dp" />
-
-            <ImageView
-                android:id="@+id/g1"
-                android:layout_width="35dp"
-                android:layout_height="35dp" />
-
-            <ImageView
-                android:id="@+id/h1"
-                android:layout_width="35dp"
-                android:layout_height="35dp" />
-
-            <ImageView
-                android:id="@+id/i1"
-                android:layout_width="35dp"
-                android:layout_height="35dp" />
+                android:layout_height="35dp"
+                android:background="@drawable/Rojopeon" />
         </TableRow>
 
         <TableRow
@@ -415,47 +431,49 @@
             android:layout_height="match_parent">
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/a3"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/b3"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/cañonrojo" />
+
+            <ImageView
+                android:id="@+id/c3"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/d3"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/imageView4"
+                android:id="@+id/e3"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/imageView5"
+                android:id="@+id/f3"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/imageView6"
+                android:id="@+id/g3"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/imageView7"
+                android:id="@+id/h3"
                 android:layout_width="35dp"
-                android:layout_height="35dp" />
+                android:layout_height="35dp"
+                android:background="@drawable/cañonrojo" />
 
             <ImageView
-                android:id="@+id/imageView8"
-                android:layout_width="35dp"
-                android:layout_height="35dp" />
-
-            <ImageView
-                android:id="@+id/imageView9"
+                android:id="@+id/i3"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
         </TableRow>
@@ -468,8 +486,7 @@
             <ImageView
                 android:id="@+id/a2"
                 android:layout_width="35dp"
-                android:layout_height="35dp"
-                android:background="@drawable/peonrojo" />
+                android:layout_height="35dp" />
 
             <ImageView
                 android:id="@+id/b2"
@@ -482,17 +499,17 @@
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/d4"
+                android:id="@+id/d2"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/e4"
+                android:id="@+id/e2"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
             <ImageView
-                android:id="@+id/f4"
+                android:id="@+id/f2"
                 android:layout_width="35dp"
                 android:layout_height="35dp" />
 
@@ -531,7 +548,8 @@
             <ImageView
                 android:id="@+id/c1"
                 android:layout_width="35dp"
-                android:layout_height="35dp" />
+                android:layout_height="35dp"
+                android:background="@drawable/Rojoelefante" />
 
             <ImageView
                 android:id="@+id/d1"
@@ -551,7 +569,8 @@
             <ImageView
                 android:id="@+id/g1"
                 android:layout_width="35dp"
-                android:layout_height="35dp" />
+                android:layout_height="35dp"
+                android:background="@drawable/Rojoelefante" />
 
             <ImageView
                 android:id="@+id/h1"
