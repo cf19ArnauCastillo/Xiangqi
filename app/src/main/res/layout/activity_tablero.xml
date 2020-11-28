@@ -60,22 +60,26 @@
             <ImageView
                 android:id="@+id/a10"
                 android:layout_width="35dp"
-                android:layout_height="35dp" />
+                android:layout_height="35dp"
+                android:background="@drawable/Blancotorre" />
 
             <ImageView
                 android:id="@+id/b10"
                 android:layout_width="35dp"
-                android:layout_height="35dp" />
+                android:layout_height="35dp"
+                android:background="@drawable/Blancocaballo" />
 
             <ImageView
                 android:id="@+id/c10"
                 android:layout_width="35dp"
-                android:layout_height="35dp" />
+                android:layout_height="35dp"
+                android:background="@drawable/Blancoelefante" />
 
             <ImageView
                 android:id="@+id/d10"
                 android:layout_width="35dp"
-                android:layout_height="35dp" />
+                android:layout_height="35dp"
+                android:background="@drawable/Blancovasallo" />
 
             <ImageView
                 android:id="@+id/e10"
@@ -85,22 +89,26 @@
             <ImageView
                 android:id="@+id/f10"
                 android:layout_width="35dp"
-                android:layout_height="35dp" />
+                android:layout_height="35dp"
+                android:background="@drawable/Blancovasallo" />
 
             <ImageView
                 android:id="@+id/g10"
                 android:layout_width="35dp"
-                android:layout_height="35dp" />
+                android:layout_height="35dp"
+                android:background="@drawable/Blancoelefante" />
 
             <ImageView
                 android:id="@+id/h10"
                 android:layout_width="35dp"
-                android:layout_height="35dp" />
+                android:layout_height="35dp"
+                android:background="@drawable/Blancocaballo" />
 
             <ImageView
                 android:id="@+id/i10"
                 android:layout_width="35dp"
-                android:layout_height="35dp" />
+                android:layout_height="35dp"
+                android:background="@drawable/Blancotorre" />
         </TableRow>
 
         <TableRow
@@ -167,7 +175,8 @@
             <ImageView
                 android:id="@+id/b8"
                 android:layout_width="35dp"
-                android:layout_height="35dp" />
+                android:layout_height="35dp"
+                android:background="@drawable/Blancocanon" />
 
             <ImageView
                 android:id="@+id/c8"
@@ -197,7 +206,8 @@
             <ImageView
                 android:id="@+id/h8"
                 android:layout_width="35dp"
-                android:layout_height="35dp" />
+                android:layout_height="35dp"
+                android:background="@drawable/Blancocanon" />
 
             <ImageView
                 android:id="@+id/i8"
@@ -213,7 +223,8 @@
             <ImageView
                 android:id="@+id/a7"
                 android:layout_width="35dp"
-                android:layout_height="35dp" />
+                android:layout_height="35dp"
+                android:background="@drawable/Blancopeon" />
 
             <ImageView
                 android:id="@+id/b7"
@@ -223,7 +234,8 @@
             <ImageView
                 android:id="@+id/c7"
                 android:layout_width="35dp"
-                android:layout_height="35dp" />
+                android:layout_height="35dp"
+                android:background="@drawable/Blancopeon" />
 
             <ImageView
                 android:id="@+id/d7"
@@ -233,7 +245,8 @@
             <ImageView
                 android:id="@+id/e7"
                 android:layout_width="35dp"
-                android:layout_height="35dp" />
+                android:layout_height="35dp"
+                android:background="@drawable/Blancopeon" />
 
             <ImageView
                 android:id="@+id/f7"
@@ -243,7 +256,8 @@
             <ImageView
                 android:id="@+id/g7"
                 android:layout_width="35dp"
-                android:layout_height="35dp" />
+                android:layout_height="35dp"
+                android:background="@drawable/Blancopeon" />
 
             <ImageView
                 android:id="@+id/h7"
@@ -253,7 +267,8 @@
             <ImageView
                 android:id="@+id/i7"
                 android:layout_width="35dp"
-                android:layout_height="35dp" />
+                android:layout_height="35dp"
+                android:background="@drawable/Blancopeon" />
         </TableRow>
 
         <TableRow
@@ -314,7 +329,7 @@
 
             <ImageView
                 android:id="@+id/charco"
-                android:layout_width=""
+                android:layout_width="wrap_content"
                 android:layout_height="10dp" />
         </TableRow>
 
@@ -439,7 +454,7 @@
                 android:id="@+id/b3"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:background="@drawable/cañonrojo" />
+                android:background="@drawable/Rojocanon" />
 
             <ImageView
                 android:id="@+id/c3"
@@ -470,7 +485,7 @@
                 android:id="@+id/h3"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:background="@drawable/cañonrojo" />
+                android:background="@drawable/Rojocanon" />
 
             <ImageView
                 android:id="@+id/i3"
@@ -538,12 +553,14 @@
             <ImageView
                 android:id="@+id/a1"
                 android:layout_width="35dp"
-                android:layout_height="35dp" />
+                android:layout_height="35dp"
+                android:background="@drawable/Rojotorre" />
 
             <ImageView
                 android:id="@+id/b1"
                 android:layout_width="35dp"
-                android:layout_height="35dp" />
+                android:layout_height="35dp"
+                android:background="@drawable/Rojocaballo" />
 
             <ImageView
                 android:id="@+id/c1"
@@ -554,17 +571,20 @@
             <ImageView
                 android:id="@+id/d1"
                 android:layout_width="35dp"
-                android:layout_height="35dp" />
+                android:layout_height="35dp"
+                android:background="@drawable/Rojovasallo" />
 
             <ImageView
                 android:id="@+id/e1"
                 android:layout_width="35dp"
-                android:layout_height="35dp" />
+                android:layout_height="35dp"
+                android:background="@drawable/Rojorey" />
 
             <ImageView
                 android:id="@+id/f1"
                 android:layout_width="35dp"
-                android:layout_height="35dp" />
+                android:layout_height="35dp"
+                android:background="@drawable/Rojovasallo" />
 
             <ImageView
                 android:id="@+id/g1"
@@ -575,12 +595,14 @@
             <ImageView
                 android:id="@+id/h1"
                 android:layout_width="35dp"
-                android:layout_height="35dp" />
+                android:layout_height="35dp"
+                android:background="@drawable/Rojocaballo" />
 
             <ImageView
                 android:id="@+id/i1"
                 android:layout_width="35dp"
-                android:layout_height="35dp" />
+                android:layout_height="35dp"
+                android:background="@drawable/Rojotorre" />
         </TableRow>
     </TableLayout>
 
