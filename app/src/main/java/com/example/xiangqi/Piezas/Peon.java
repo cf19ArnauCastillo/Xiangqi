@@ -5,9 +5,9 @@ public class Peon extends Pieza {
         super(color);
 
         if (color == 1) {
-            name = "pr";
+            name = "rojopeon";
         } else {
-            name = "pn";
+            name = "negropeon";
         }
     }
 

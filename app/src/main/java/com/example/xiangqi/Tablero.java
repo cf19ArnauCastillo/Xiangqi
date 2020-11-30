@@ -121,11 +121,13 @@ public class Tablero extends AppCompatActivity {
         tablero[2][7] = new Canon(1);
 
         //Peones
-        tablero[3][0]= new Peon(0);
-        tablero[3][2]=new Peon(0);
+        tablero[3][0]= new Peon(1);
+        tablero[3][2]=new Peon(1);
         tablero[3][4]= new Peon(1);
         tablero[3][6]=new Peon(1);
         tablero[3][8] = new Peon(1);
+
+        pintTablero();
     }
     public void clickPeca (View view) {
         String posPeca = view.getTag().toString();
@@ -136,12 +138,12 @@ public class Tablero extends AppCompatActivity {
         int col3=row;
         int row3=col;
         //Almacena en las variables row y col las posiciones de la pieza en el tablero
-        Log.i("infoTaulell", "CLICK ---->" + tablero[row][col].name);
+        Log.i("infoTablero", "CLICK ---->" + tablero[row][col].name);
         if(tablero[row][col]!=null) {//se activa si clicas una pieza
             //si fuese G no entraria
 
             if(!tablero[row][col].name.equals("G") && tablero[row][col].isEatable==false){//
-                Log.i("infoTaulell", "ENTRA EN CLICK PIEZA");
+                Log.i("infoTablero", "ENTRA EN CLICK PIEZA");
                 cleanTablero(); //limpia los ghost.pero en la primera pieza no la hace,si en el resto
                 int color = tablero[row][col].color; //el color que recibe es un 1 o 0
                 tablero[row][col].printGhost(row, col, tablero, color);
@@ -149,8 +151,8 @@ public class Tablero extends AppCompatActivity {
                 col2 = col; //columna vieja
 
             } else if(tablero[row][col].name.equals("G")) {//si una pieza es G y esta libre
-                Log.i("infoTaulell", "ENTRA EN CLICK GHOST");
-                Log.i("infoTaulell", Integer.toString(row2) + " " + Integer.toString(col2));
+                Log.i("infoTablero", "ENTRA EN CLICK GHOST");
+                Log.i("infoTablero", Integer.toString(row2) + " " + Integer.toString(col2));
                 //Cogemos la pieza clicada
                 Pieza piezaMover = tablero[row2][col2];
                 //Ponemos la pieza en la nueva casilla clicada:la antigua posicion se modifica a la del nuevo clic
@@ -161,7 +163,7 @@ public class Tablero extends AppCompatActivity {
 
             }else if(tablero[row][col].color!=tablero[row2][col2].color && tablero[row][col].isEatable==true){
                 //si son de diferente color las posiciones y la segunda es comible
-                Log.i("infoTaulell", "ENTRA EN CLICK KILL");
+                Log.i("infoTablero", "ENTRA EN CLICK KILL");
                 tablero[row][col] = tablero[row2][col2];
                 tablero[row2][col2] = null;
                 cleanTablero();
@@ -171,13 +173,12 @@ public class Tablero extends AppCompatActivity {
         pintTablero();
     }
 
-
-
     public void pintTablero(){
         //Row es para el log.
+        Log.i("infoTablero", "hola");
         String row ="TABLERO\n";
-        for(int i=0; i<8; i++) {
-            for(int j=0; j<8; j++) {
+        for(int i=0; i<9; i++) {
+            for(int j=0; j<10; j++) {
 
                 if(tablero[i][j]!=null) {
                     row += tablero[i][j].name + " ";
@@ -216,6 +217,22 @@ public class Tablero extends AppCompatActivity {
                 }
                 if(tablero[i][j]==null){
                     tablero[i][j]=null;
+                }
+
+                //Modificar array Image View TABLERO
+                viewtablero[i][j].setImageResource(getResources().getIdentifier("", "drawable", getPackageName()));
+                if (i % 2 == 0) {
+                    if (j % 2 == 0) {
+                        viewtablero[i][j].setBackgroundColor(getResources().getColor(R.color.colorPrimary));
+                    } else {
+                        viewtablero[i][j].setBackgroundColor(getResources().getColor(R.color.colorAccent));
+                    }
+                } else {
+                    if (j % 2 == 0) {
+                        viewtablero[i][j].setBackgroundColor(getResources().getColor(R.color.colorAccent));
+                    } else {
+                        viewtablero[i][j].setBackgroundColor(getResources().getColor(R.color.colorPrimary));
+                    }
                 }
             }
         }

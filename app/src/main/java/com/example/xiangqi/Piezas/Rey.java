@@ -5,9 +5,9 @@ public class Rey extends  Pieza {
         super(color);
 
         if (color == 1) {
-            name = "rr";
+            name = "rojorey";
         } else {
-            name = "rn";
+            name = "negrorey";
         }
     }
 
