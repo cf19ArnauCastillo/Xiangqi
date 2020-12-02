@@ -21,7 +21,7 @@ import com.example.xiangqi.Piezas.Vasallo;
 public class Tablero extends AppCompatActivity {
 
     //CANTIDAD DE CASILLAS PARA MOVER LAS FICHAS
-    ImageView viewtablero[][] = new ImageView[9][10]; //De largo contando el rio son 11 Arnau tenlo en cuenta
+    ImageView viewtablero[][] = new ImageView[10][11]; //De largo contando el rio son 11 Arnau tenlo en cuenta
 
     Pieza[][] tablero = new Pieza[9][10];
 
@@ -66,35 +66,85 @@ public class Tablero extends AppCompatActivity {
         viewtablero[1][7] = findViewById(R.id.h2);
         viewtablero[1][8] = findViewById(R.id.i2);
 
-        viewtablero[3][0] = findViewById(R.id.a3);
-        viewtablero[3][1] = findViewById(R.id.b3);
-        viewtablero[3][2] = findViewById(R.id.c3);
-        viewtablero[3][3] = findViewById(R.id.d3);
-        viewtablero[3][4] = findViewById(R.id.e3);
-        viewtablero[3][5] = findViewById(R.id.f3);
-        viewtablero[3][6] = findViewById(R.id.g3);
-        viewtablero[3][7] = findViewById(R.id.h3);
-        viewtablero[3][8] = findViewById(R.id.i3);
+        viewtablero[2][0] = findViewById(R.id.a3);
+        viewtablero[2][1] = findViewById(R.id.b3);
+        viewtablero[2][2] = findViewById(R.id.c3);
+        viewtablero[2][3] = findViewById(R.id.d3);
+        viewtablero[2][4] = findViewById(R.id.e3);
+        viewtablero[2][5] = findViewById(R.id.f3);
+        viewtablero[2][6] = findViewById(R.id.g3);
+        viewtablero[2][7] = findViewById(R.id.h3);
+        viewtablero[2][8] = findViewById(R.id.i3);
 
-        viewtablero[4][0] = findViewById(R.id.a4);
-        viewtablero[4][1] = findViewById(R.id.b4);
-        viewtablero[4][2] = findViewById(R.id.c4);
-        viewtablero[4][3] = findViewById(R.id.d4);
-        viewtablero[4][4] = findViewById(R.id.e4);
-        viewtablero[4][5] = findViewById(R.id.f4);
-        viewtablero[4][6] = findViewById(R.id.g4);
-        viewtablero[4][7] = findViewById(R.id.h4);
-        viewtablero[4][8] = findViewById(R.id.i4);
+        viewtablero[3][0] = findViewById(R.id.a4);
+        viewtablero[3][1] = findViewById(R.id.b4);
+        viewtablero[3][2] = findViewById(R.id.c4);
+        viewtablero[3][3] = findViewById(R.id.d4);
+        viewtablero[3][4] = findViewById(R.id.e4);
+        viewtablero[3][5] = findViewById(R.id.f4);
+        viewtablero[3][6] = findViewById(R.id.g4);
+        viewtablero[3][7] = findViewById(R.id.h4);
+        viewtablero[3][8] = findViewById(R.id.i4);
 
-        viewtablero[5][0] = findViewById(R.id.a5);
-        viewtablero[5][1] = findViewById(R.id.b5);
-        viewtablero[5][2] = findViewById(R.id.c5);
-        viewtablero[5][3] = findViewById(R.id.d5);
-        viewtablero[5][4] = findViewById(R.id.e5);
-        viewtablero[5][5] = findViewById(R.id.f5);
-        viewtablero[5][6] = findViewById(R.id.g5);
-        viewtablero[5][7] = findViewById(R.id.h5);
-        viewtablero[5][8] = findViewById(R.id.i5);
+        viewtablero[4][0] = findViewById(R.id.a5);
+        viewtablero[4][1] = findViewById(R.id.b5);
+        viewtablero[4][2] = findViewById(R.id.c5);
+        viewtablero[4][3] = findViewById(R.id.d5);
+        viewtablero[4][4] = findViewById(R.id.e5);
+        viewtablero[4][5] = findViewById(R.id.f5);
+        viewtablero[4][6] = findViewById(R.id.g5);
+        viewtablero[4][7] = findViewById(R.id.h5);
+        viewtablero[4][8] = findViewById(R.id.i5);
+
+        viewtablero[5][0] = findViewById(R.id.a6);
+        viewtablero[5][1] = findViewById(R.id.b6);
+        viewtablero[5][2] = findViewById(R.id.c6);
+        viewtablero[5][3] = findViewById(R.id.d6);
+        viewtablero[5][4] = findViewById(R.id.e6);
+        viewtablero[5][5] = findViewById(R.id.f6);
+        viewtablero[5][6] = findViewById(R.id.g6);
+        viewtablero[5][7] = findViewById(R.id.h6);
+        viewtablero[5][8] = findViewById(R.id.i6);
+
+        viewtablero[6][0] = findViewById(R.id.a7);
+        viewtablero[6][1] = findViewById(R.id.b7);
+        viewtablero[6][2] = findViewById(R.id.c7);
+        viewtablero[6][3] = findViewById(R.id.d7);
+        viewtablero[6][4] = findViewById(R.id.e7);
+        viewtablero[6][5] = findViewById(R.id.f7);
+        viewtablero[6][6] = findViewById(R.id.g7);
+        viewtablero[6][7] = findViewById(R.id.h7);
+        viewtablero[6][8] = findViewById(R.id.i7);
+
+        viewtablero[7][0] = findViewById(R.id.a8);
+        viewtablero[7][1] = findViewById(R.id.b8);
+        viewtablero[7][2] = findViewById(R.id.c8);
+        viewtablero[7][3] = findViewById(R.id.d8);
+        viewtablero[7][4] = findViewById(R.id.e8);
+        viewtablero[7][5] = findViewById(R.id.f8);
+        viewtablero[7][6] = findViewById(R.id.g8);
+        viewtablero[7][7] = findViewById(R.id.h8);
+        viewtablero[7][8] = findViewById(R.id.i8);
+
+        viewtablero[8][0] = findViewById(R.id.a9);
+        viewtablero[8][1] = findViewById(R.id.b9);
+        viewtablero[8][2] = findViewById(R.id.c9);
+        viewtablero[8][3] = findViewById(R.id.d9);
+        viewtablero[8][4] = findViewById(R.id.e9);
+        viewtablero[8][5] = findViewById(R.id.f9);
+        viewtablero[8][6] = findViewById(R.id.g9);
+        viewtablero[8][7] = findViewById(R.id.h9);
+        viewtablero[8][8] = findViewById(R.id.i9);
+
+        viewtablero[9][0] = findViewById(R.id.a10);
+        viewtablero[9][1] = findViewById(R.id.b10);
+        viewtablero[9][2] = findViewById(R.id.c10);
+        viewtablero[9][3] = findViewById(R.id.d10);
+        viewtablero[9][4] = findViewById(R.id.e10);
+        viewtablero[9][5] = findViewById(R.id.f10);
+        viewtablero[9][6] = findViewById(R.id.g10);
+        viewtablero[9][7] = findViewById(R.id.h10);
+        viewtablero[9][8] = findViewById(R.id.i10);
 
         //Torres
         tablero[0][0] = new Torre(1);
@@ -174,7 +224,6 @@ public class Tablero extends AppCompatActivity {
 
     public void pintTablero(){
         //Row es para el log.
-        Log.i("infoTablero", "hola");
         String row ="TABLERO\n";
         for(int i=0; i<9; i++) {
             for(int j=0; j<10; j++) {
@@ -220,6 +269,7 @@ public class Tablero extends AppCompatActivity {
 
                 //Modificar array Image View TABLERO
                 viewtablero[i][j].setImageResource(getResources().getIdentifier("", "drawable", getPackageName()));
+                /*
                 if (i % 2 == 0) {
                     if (j % 2 == 0) {
                         viewtablero[i][j].setBackgroundColor(getResources().getColor(R.color.colorPrimary));
@@ -232,7 +282,7 @@ public class Tablero extends AppCompatActivity {
                     } else {
                         viewtablero[i][j].setBackgroundColor(getResources().getColor(R.color.colorPrimary));
                     }
-                }
+                }*/
             }
         }
     }

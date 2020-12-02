@@ -61,73 +61,73 @@
                 android:id="@+id/a10"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:background="@drawable/blancotorre"
                 android:onClick="clickPeca"
-                android:rotation="180" />
+                android:rotation="180"
+                android:tag="90" />
 
             <ImageView
                 android:id="@+id/b10"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:background="@drawable/blancocaballo"
                 android:onClick="clickPeca"
-                android:rotation="180" />
+                android:rotation="180"
+                android:tag="91" />
 
             <ImageView
                 android:id="@+id/c10"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:background="@drawable/blancoelefante"
                 android:onClick="clickPeca"
-                android:rotation="180" />
+                android:rotation="180"
+                android:tag="92" />
 
             <ImageView
                 android:id="@+id/d10"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:background="@drawable/blancovasallo"
                 android:onClick="clickPeca"
-                android:rotation="180" />
+                android:rotation="180"
+                android:tag="93" />
 
             <ImageView
                 android:id="@+id/e10"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:background="@drawable/blancorey"
                 android:onClick="clickPeca"
-                android:rotation="180" />
+                android:rotation="180"
+                android:tag="94" />
 
             <ImageView
                 android:id="@+id/f10"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:background="@drawable/blancovasallo"
                 android:onClick="clickPeca"
-                android:rotation="180" />
+                android:rotation="180"
+                android:tag="95" />
 
             <ImageView
                 android:id="@+id/g10"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:background="@drawable/blancoelefante"
                 android:onClick="clickPeca"
-                android:rotation="180" />
+                android:rotation="180"
+                android:tag="96" />
 
             <ImageView
                 android:id="@+id/h10"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:background="@drawable/blancocaballo"
                 android:onClick="clickPeca"
-                android:rotation="180" />
+                android:rotation="180"
+                android:tag="97" />
 
             <ImageView
                 android:id="@+id/i10"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:background="@drawable/blancotorre"
                 android:onClick="clickPeca"
-                android:rotation="180" />
+                android:rotation="180"
+                android:tag="98" />
         </TableRow>
 
         <TableRow
@@ -139,55 +139,73 @@
                 android:id="@+id/a9"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:rotation="180"
+                android:tag="80" />
 
             <ImageView
                 android:id="@+id/b9"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:rotation="180"
+                android:tag="81" />
 
             <ImageView
                 android:id="@+id/c9"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:rotation="180"
+                android:tag="82" />
 
             <ImageView
                 android:id="@+id/d9"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:rotation="180"
+                android:tag="83" />
 
             <ImageView
                 android:id="@+id/e9"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:rotation="180"
+                android:tag="84" />
 
             <ImageView
                 android:id="@+id/f9"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:rotation="180"
+                android:tag="85" />
 
             <ImageView
                 android:id="@+id/g9"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:rotation="180"
+                android:tag="86" />
 
             <ImageView
                 android:id="@+id/h9"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:rotation="180"
+                android:tag="87" />
 
             <ImageView
                 android:id="@+id/i9"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:rotation="180"
+                android:tag="88" />
         </TableRow>
 
         <TableRow
@@ -199,59 +217,73 @@
                 android:id="@+id/a8"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:rotation="180"
+                android:tag="70" />
 
             <ImageView
                 android:id="@+id/b8"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:background="@drawable/blancocanon"
                 android:onClick="clickPeca"
-                android:rotation="180" />
+                android:rotation="180"
+                android:tag="71" />
 
             <ImageView
                 android:id="@+id/c8"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:rotation="180"
+                android:tag="72" />
 
             <ImageView
                 android:id="@+id/d8"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:rotation="180"
+                android:tag="73" />
 
             <ImageView
                 android:id="@+id/e8"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:rotation="180"
+                android:tag="74" />
 
             <ImageView
                 android:id="@+id/f8"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:rotation="180"
+                android:tag="75" />
 
             <ImageView
                 android:id="@+id/g8"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:rotation="180"
+                android:tag="76" />
 
             <ImageView
                 android:id="@+id/h8"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:background="@drawable/blancocanon"
                 android:onClick="clickPeca"
-                android:rotation="180" />
+                android:rotation="180"
+                android:tag="77" />
 
             <ImageView
                 android:id="@+id/i8"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:rotation="180"
+                android:tag="78" />
         </TableRow>
 
         <TableRow
@@ -263,65 +295,73 @@
                 android:id="@+id/a7"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:background="@drawable/blancopeon"
                 android:onClick="clickPeca"
-                android:rotation="180" />
+                android:rotation="180"
+                android:tag="60" />
 
             <ImageView
                 android:id="@+id/b7"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:rotation="180"
+                android:tag="61" />
 
             <ImageView
                 android:id="@+id/c7"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:background="@drawable/blancopeon"
                 android:onClick="clickPeca"
-                android:rotation="180" />
+                android:rotation="180"
+                android:tag="62" />
 
             <ImageView
                 android:id="@+id/d7"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:rotation="180"
+                android:tag="63" />
 
             <ImageView
                 android:id="@+id/e7"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:background="@drawable/blancopeon"
                 android:onClick="clickPeca"
-                android:rotation="180" />
+                android:rotation="180"
+                android:tag="64" />
 
             <ImageView
                 android:id="@+id/f7"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:rotation="180"
+                android:tag="65" />
 
             <ImageView
                 android:id="@+id/g7"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:background="@drawable/blancopeon"
                 android:onClick="clickPeca"
-                android:rotation="180" />
+                android:rotation="180"
+                android:tag="66" />
 
             <ImageView
                 android:id="@+id/h7"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:rotation="180"
+                android:tag="67" />
 
             <ImageView
                 android:id="@+id/i7"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:background="@drawable/blancopeon"
                 android:onClick="clickPeca"
-                android:rotation="180" />
+                android:rotation="180"
+                android:tag="68" />
         </TableRow>
 
         <TableRow
@@ -333,55 +373,64 @@
                 android:id="@+id/a6"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="50" />
 
             <ImageView
                 android:id="@+id/b6"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="51" />
 
             <ImageView
                 android:id="@+id/c6"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="52" />
 
             <ImageView
                 android:id="@+id/d6"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="53" />
 
             <ImageView
                 android:id="@+id/e6"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="54" />
 
             <ImageView
                 android:id="@+id/f6"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="55" />
 
             <ImageView
                 android:id="@+id/g6"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="56" />
 
             <ImageView
                 android:id="@+id/h6"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="57" />
 
             <ImageView
                 android:id="@+id/i6"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="58" />
         </TableRow>
 
         <TableRow
@@ -404,55 +453,64 @@
                 android:id="@+id/a5"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="40" />
 
             <ImageView
                 android:id="@+id/b5"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="41" />
 
             <ImageView
                 android:id="@+id/c5"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="42" />
 
             <ImageView
                 android:id="@+id/d5"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="43" />
 
             <ImageView
                 android:id="@+id/e5"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="44" />
 
             <ImageView
                 android:id="@+id/f5"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="45" />
 
             <ImageView
                 android:id="@+id/g5"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="46" />
 
             <ImageView
                 android:id="@+id/h5"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="47" />
 
             <ImageView
                 android:id="@+id/i5"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="48" />
         </TableRow>
 
         <TableRow
@@ -464,60 +522,64 @@
                 android:id="@+id/a4"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:background="@drawable/rojopeon"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="30" />
 
             <ImageView
                 android:id="@+id/b4"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="31" />
 
             <ImageView
                 android:id="@+id/c4"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:background="@drawable/rojopeon"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="32" />
 
             <ImageView
                 android:id="@+id/d4"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="33" />
 
             <ImageView
                 android:id="@+id/e4"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:background="@drawable/rojopeon"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="34" />
 
             <ImageView
                 android:id="@+id/f4"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="35" />
 
             <ImageView
                 android:id="@+id/g4"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:background="@drawable/rojopeon"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="36" />
 
             <ImageView
                 android:id="@+id/h4"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="37" />
 
             <ImageView
                 android:id="@+id/i4"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:background="@drawable/rojopeon"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="38" />
         </TableRow>
 
         <TableRow
@@ -529,57 +591,64 @@
                 android:id="@+id/a3"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="20" />
 
             <ImageView
                 android:id="@+id/b3"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:background="@drawable/rojocanon"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="21" />
 
             <ImageView
                 android:id="@+id/c3"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="22" />
 
             <ImageView
                 android:id="@+id/d3"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="23" />
 
             <ImageView
                 android:id="@+id/e3"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="24" />
 
             <ImageView
                 android:id="@+id/f3"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="25" />
 
             <ImageView
                 android:id="@+id/g3"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="26" />
 
             <ImageView
                 android:id="@+id/h3"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:background="@drawable/rojocanon"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="27" />
 
             <ImageView
                 android:id="@+id/i3"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="28" />
         </TableRow>
 
         <TableRow
@@ -591,55 +660,64 @@
                 android:id="@+id/a2"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="10" />
 
             <ImageView
                 android:id="@+id/b2"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="11" />
 
             <ImageView
                 android:id="@+id/c2"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="12" />
 
             <ImageView
                 android:id="@+id/d2"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="13" />
 
             <ImageView
                 android:id="@+id/e2"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="14" />
 
             <ImageView
                 android:id="@+id/f2"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="15" />
 
             <ImageView
                 android:id="@+id/g2"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="16" />
 
             <ImageView
                 android:id="@+id/h2"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="17" />
 
             <ImageView
                 android:id="@+id/i2"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="18" />
 
         </TableRow>
 
@@ -652,64 +730,64 @@
                 android:id="@+id/a1"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:background="@drawable/rojotorre"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="00" />
 
             <ImageView
                 android:id="@+id/b1"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:background="@drawable/rojocaballo"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="01" />
 
             <ImageView
                 android:id="@+id/c1"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:background="@drawable/rojoelefante"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="02" />
 
             <ImageView
                 android:id="@+id/d1"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:background="@drawable/rojovasallo"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="03" />
 
             <ImageView
                 android:id="@+id/e1"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:background="@drawable/rojorey"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="04" />
 
             <ImageView
                 android:id="@+id/f1"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:background="@drawable/rojovasallo"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="05" />
 
             <ImageView
                 android:id="@+id/g1"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:background="@drawable/rojoelefante"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="06" />
 
             <ImageView
                 android:id="@+id/h1"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:background="@drawable/rojocaballo"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="07" />
 
             <ImageView
                 android:id="@+id/i1"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
-                android:background="@drawable/rojotorre"
-                android:onClick="clickPeca"/>
+                android:onClick="clickPeca"
+                android:tag="08" />
         </TableRow>
     </TableLayout>
 
