@@ -21,15 +21,17 @@ import com.example.xiangqi.Piezas.Vasallo;
 public class Tablero extends AppCompatActivity {
 
     //CANTIDAD DE CASILLAS PARA MOVER LAS FICHAS
-    ImageView viewtablero[][] = new ImageView[10][11]; //De largo contando el rio son 11 Arnau tenlo en cuenta
+    ImageView viewtablero[][] = new ImageView[10][9]; //De largo contando el rio son 11 Arnau tenlo en cuenta
 
-    Pieza[][] tablero = new Pieza[9][10];
+    Pieza[][] tablero = new Pieza[10][9];
 
     int row2;
     int col2;
     //PARA VER LOS NOMBRES DE LOS JUGADORES
     TextView n1, n2;
     String sn1, sn2;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,12 +41,12 @@ public class Tablero extends AppCompatActivity {
         n1=(TextView) findViewById(R.id.nombre1);
         n2=(TextView) findViewById(R.id.nombre2);
 
-        sn1=getIntent().getExtras().getString("NombreJ1");
+      /*  sn1=getIntent().getExtras().getString("NombreJ1");
         n1.setText(sn1);
 
         sn2=getIntent().getExtras().getString("NombreJ2");
         n2.setText(sn2);
-
+    */
         //PARA PODER MOVER LAS FICHAS
         viewtablero[0][0] = findViewById(R.id.a1);
         viewtablero[0][1] = findViewById(R.id.b1);
@@ -184,8 +186,7 @@ public class Tablero extends AppCompatActivity {
 
         int row = Character.getNumericValue(posPeca.charAt(0));
         int col = Character.getNumericValue(posPeca.charAt(1));
-        int col3=row;
-        int row3=col;
+
         //Almacena en las variables row y col las posiciones de la pieza en el tablero
         Log.i("infoTablero", "CLICK ---->" + tablero[row][col].name);
         if(tablero[row][col]!=null) {//se activa si clicas una pieza
@@ -225,8 +226,8 @@ public class Tablero extends AppCompatActivity {
     public void pintTablero(){
         //Row es para el log.
         String row ="TABLERO\n";
-        for(int i=0; i<9; i++) {
-            for(int j=0; j<10; j++) {
+        for(int i=0; i<10; i++) {
+            for(int j=0; j<9; j++) {
 
                 if(tablero[i][j]!=null) {
                     row += tablero[i][j].name + " ";
@@ -236,6 +237,7 @@ public class Tablero extends AppCompatActivity {
                         //Cambio de color
                         viewtablero[i][j].setBackgroundColor(Color.parseColor("#3b83bd05"));//aqui se cambia el color del ghost
 
+
                         //Pintamos de otro color si la ficha se puede comer
                     } else if (tablero[i][j].isEatable == true) {
                         viewtablero[i][j].setBackgroundColor(Color.parseColor("#80ff0000"));
@@ -243,10 +245,14 @@ public class Tablero extends AppCompatActivity {
                     } else {
                         Log.i("infoTablero", tablero[i][j].name + "--" + Integer.toString(i) + " " + Integer.toString(j));
                         viewtablero[i][j].setImageResource(getResources().getIdentifier(tablero[i][j].name, "drawable", getPackageName()));
+                        viewtablero[i][j].setBackgroundColor(Color.parseColor("#00000000"));//aqui se cambia el color del ghost
+
                     }
 
                 } else {
                     row += "   ";
+                    Log.i("infoTablero", "" + i + " - " + j);
+                    viewtablero[i][j].setBackgroundColor(Color.parseColor("#00000000"));//aqui se cambia el color del ghost
                 }
             }
             row += "\n";
@@ -255,34 +261,18 @@ public class Tablero extends AppCompatActivity {
     }
 
     public void cleanTablero() {
-        for(int i=0; i<8; i++) {
-            for (int j = 0; j < 8; j++) {
+        for(int i=0; i<10; i++) {
+            for (int j = 0; j < 9; j++) {
                 // Modificar array datos
                 if(tablero[i][j]!=null && tablero[i][j].name.equals("G")) {
                     tablero[i][j]=null;
                 } else if(tablero[i][j]!=null && tablero[i][j].isEatable==true) {
                     tablero[i][j].isEatable=false;
                 }
-                if(tablero[i][j]==null){
-                    tablero[i][j]=null;
-                }
 
                 //Modificar array Image View TABLERO
                 viewtablero[i][j].setImageResource(getResources().getIdentifier("", "drawable", getPackageName()));
-                /*
-                if (i % 2 == 0) {
-                    if (j % 2 == 0) {
-                        viewtablero[i][j].setBackgroundColor(getResources().getColor(R.color.colorPrimary));
-                    } else {
-                        viewtablero[i][j].setBackgroundColor(getResources().getColor(R.color.colorAccent));
-                    }
-                } else {
-                    if (j % 2 == 0) {
-                        viewtablero[i][j].setBackgroundColor(getResources().getColor(R.color.colorAccent));
-                    } else {
-                        viewtablero[i][j].setBackgroundColor(getResources().getColor(R.color.colorPrimary));
-                    }
-                }*/
+
             }
         }
     }
