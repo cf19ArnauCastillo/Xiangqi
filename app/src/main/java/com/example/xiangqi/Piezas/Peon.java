@@ -7,7 +7,7 @@ public class Peon extends Pieza {
         if (color == 1) {
             name = "rojopeon";
         } else {
-            name = "negropeon";
+            name = "blancopeon";
         }
     }
 

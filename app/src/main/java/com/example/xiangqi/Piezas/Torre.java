@@ -8,7 +8,7 @@ public class Torre extends Pieza {
         if (color == 1) {
             name = "rojotorre";
         } else {
-            name = "negrotorre";
+            name = "blancotorre";
         }
     }
 

@@ -7,7 +7,7 @@ public class Caballo extends Pieza {
         if (color == 1) {
             name = "rojocaballo";
         } else {
-            name = "negrocaballo";
+            name = "blancocaballo";
         }
     }
 

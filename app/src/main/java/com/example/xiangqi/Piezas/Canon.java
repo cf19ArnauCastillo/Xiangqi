@@ -7,7 +7,7 @@ public class Canon extends Pieza{
         if (color == 1) {
             name = "rojocanon";
         } else {
-            name = "negrocanon";
+            name = "blancocanon";
         }
     }
 

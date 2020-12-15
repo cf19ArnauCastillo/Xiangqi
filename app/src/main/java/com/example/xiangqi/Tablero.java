@@ -149,29 +149,45 @@ public class Tablero extends AppCompatActivity {
         viewtablero[9][8] = findViewById(R.id.i10);
 
         //Torres
+        tablero[9][0] = new Torre(0);
+        tablero[9][8] = new Torre(0);
         tablero[0][0] = new Torre(1);
         tablero[0][8] = new Torre(1);
 
         //Caballos
+        tablero[9][1] = new Caballo(0);
+        tablero[9][7] = new Caballo(0);
         tablero[0][1] = new Caballo(1);
         tablero[0][7] = new Caballo(1);
 
         //Elefante
+        tablero[9][2] = new Elefante(0);
+        tablero[9][6] = new Elefante(0);
         tablero[0][2] = new Elefante(1);
         tablero[0][6] = new Elefante(1);
 
         //Vasallos
+        tablero[9][3] = new Vasallo(0);
+        tablero[9][5] = new Vasallo(0);
         tablero[0][3] = new Vasallo(1);
         tablero[0][5] = new Vasallo(1);
 
         //Rey
+        tablero[9][4] = new Rey(0);
         tablero[0][4] = new Rey(1);
 
         //Cañones
+        tablero[7][1] = new Canon(0);
+        tablero[7][7] = new Canon(0);
         tablero[2][1] = new Canon(1);
         tablero[2][7] = new Canon(1);
 
         //Peones
+        tablero[6][0]= new Peon(0);
+        tablero[6][2]=new Peon(0);
+        tablero[6][4]= new Peon(0);
+        tablero[6][6]=new Peon(0);
+        tablero[6][8] = new Peon(0);
         tablero[3][0]= new Peon(1);
         tablero[3][2]=new Peon(1);
         tablero[3][4]= new Peon(1);
