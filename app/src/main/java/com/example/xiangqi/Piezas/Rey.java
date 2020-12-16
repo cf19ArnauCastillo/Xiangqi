@@ -25,7 +25,7 @@ public class Rey extends  Pieza {
 
     }
     public void createGhost(int row,int col,int color,Pieza[][] tablero){
-        if(row>=0 && row<=7 && col >=0 && col <=7){ //0 7 0 7
+        if(row>=0 && row<=9 && col >=0 && col <=9){
             if(tablero[row][col]==null){
                 tablero[row][col]=new Ghost(color);
             }else{

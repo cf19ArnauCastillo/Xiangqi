@@ -11,36 +11,28 @@ public class Vasallo extends Pieza {
         }
     }
 
-    public void printGhost(int row, int col, Pieza[][] tablero, int color) {
+    public void printGhost(int row, int col, Pieza[][]tablero, int color){
 //        Log.i("infoPieza", Integer.toString(row) + " -" + Integer.toString(col));
-        int iniciador = 2;
-//ESTO NO SE USA EN ESTE AJEDREZ CHINO PERO SE QUEDA AQUI PORQUE LO NECESITO
-        //UP PEON BLANCO INICIAL
-        int i = row - 1;
-        int j = col;
-        if (color == 0) {
-            createGhost(row - 1, col, color, tablero);
 
+        createGhost(row+1,col+1,color,tablero);
+        createGhost(row+1,col-1,color,tablero);
+        createGhost(row-1,col+1,color,tablero);
+        createGhost(row-1,col-1,color,tablero);
+        createGhost(row+0,col+1,color,tablero);
+        createGhost(row+0,col-1,color,tablero);
+        createGhost(row+1,col+0,color,tablero);
+        createGhost(row-1,col-0,color,tablero);
 
-            if (color == 1 && row == 6) {
-                createGhost(row - 1, col, color, tablero);
-            }
-        }
-        // si row-1 i col +1 o -1 tiene una pieza del color inverso la podéis comer
-
-
-        //UP PEON ROJO INICIAL
-        i = row + 1;
-        j = col;
-        if (color == 1) {
-            createGhost(row + 1, col, color, tablero);
-
-            if (color == 0 && row == 1) {
-                createGhost(row + 1, col, color, tablero);
-            }
-        }
     }
-
-    private void createGhost(int i, int col, int color, Pieza[][] tablero) {
+    public void createGhost(int row,int col,int color,Pieza[][] tablero){
+        if(row>=0 && row<=9 && col >=0 && col <=9){
+            if(tablero[row][col]==null){
+                tablero[row][col]=new Ghost(color);
+            }else{
+                if(tablero[row][col].color!=this.color){
+                    tablero[row][col].isEatable=true;
+                }
+            }
+        }
     }
 }
