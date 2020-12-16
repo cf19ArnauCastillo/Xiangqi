@@ -30,6 +30,20 @@ public class Torre extends Pieza {
             }
         }
 
+        //DOWN
+        continuar = true;
+        i = row + 1; //dibuja la linea recta de la torre
+        while (i <= 9 && continuar) {
+            if (tablero[i][col] == null) {//si las casillas estan vacias lo colorea el ghost
+                tablero[i][col] = new Ghost(color);
+                i++;
+            } else {
+                if(tablero[i][col].color!=color) {//si me encuentro un objeto de diferente color? se podrá comer
+                    tablero[i][col].isEatable = true;
+                }
+                continuar = false;//termina el ciclo
+            }
+        }
 
         //LEFT
         continuar = true;
@@ -50,7 +64,7 @@ public class Torre extends Pieza {
         //RIGHT
         j = col + 1;
         continuar = true;
-        while (j <= 7 && continuar) {
+        while (j <= 8 && continuar) {
             if (tablero[row][j] == null) {
                 tablero[row][j] = new Ghost(color);
                 j++;
@@ -59,21 +73,6 @@ public class Torre extends Pieza {
                     tablero[row][j].isEatable = true;
                 }
                 continuar = false;
-            }
-        }
-
-        //LEFT
-        continuar = true;
-        i = row + 1; //dibuja la linea recta de la torre
-        while (i <= 7 && continuar) {
-            if (tablero[i][col] == null) {//si las casillas estan vacias lo colorea el ghost
-                tablero[i][col] = new Ghost(color);
-                i++;
-            } else {
-                if(tablero[i][col].color!=color) {//si me encuentro un objeto de diferente color? se podrá comer
-                    tablero[i][col].isEatable = true;
-                }
-                continuar = false;//termina el ciclo
             }
         }
     }

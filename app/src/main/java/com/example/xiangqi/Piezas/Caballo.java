@@ -28,14 +28,14 @@ public class Caballo extends Pieza {
         //DOWN  DOWN RIGHT
         createGhost(row+2,col+1,color,tablero);
         //DOWN LEFT LEFT
-        //createGhost(row+1,col-2,color,tablero);
+        createGhost(row+1,col-2,color,tablero);
         //DOWN RIGHT RIGHT
         createGhost(row+1,col+2,color,tablero);
 
     }
 
     public void createGhost(int row,int col,int color,Pieza[][] tablero){
-        if(row>=0 && row<=7 && col >=0 && col <=7){
+        if(row>=0 && row<=9 && col >=0 && col <=9){
             if(tablero[row][col]==null){
                 tablero[row][col]=new Ghost(color);
             }else{
