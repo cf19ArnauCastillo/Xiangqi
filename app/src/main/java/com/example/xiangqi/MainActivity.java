@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void goToPlay(){
-        Intent IntentMenu = new Intent(this,Tablero.class);
+        Intent IntentMenu = new Intent(this,Jugar.class);
         startActivity(IntentMenu);
     }
     public void goToAjuda(){

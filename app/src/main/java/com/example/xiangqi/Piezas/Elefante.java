@@ -35,7 +35,7 @@ public class Elefante extends Pieza {
         continuar = true;
         i = row - 1;
         j = col + 1;
-        while (i >= 0 && j <= 7 && continuar) {
+        while (i >= 0 && j <= 9 && continuar) {
             if (tablero[i][j] == null) {
                 tablero[i][j] = new Ghost(color);
                 i--;
@@ -52,7 +52,7 @@ public class Elefante extends Pieza {
         continuar = true;
         i = row + 1;
         j = col - 1;
-        while (i <= 7 && j >= 0 && continuar) {
+        while (i <= 9 && j >= 0 && continuar) {
             if (tablero[i][j] == null) {
                 tablero[i][j] = new Ghost(color);
                 i++;
@@ -69,7 +69,7 @@ public class Elefante extends Pieza {
         continuar = true;
         i = row + 1;
         j = col + 1;
-        while (i <= 7 && j <= 7 && continuar) {
+        while (i <= 9 && j <= 9 && continuar) {
             if (tablero[i][j] == null) {
                 tablero[i][j] = new Ghost(color);
                 i++;

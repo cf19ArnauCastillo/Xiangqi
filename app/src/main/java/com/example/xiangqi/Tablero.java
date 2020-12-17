@@ -41,12 +41,12 @@ public class Tablero extends AppCompatActivity {
         n1=(TextView) findViewById(R.id.nombre1);
         n2=(TextView) findViewById(R.id.nombre2);
 
-      /*  sn1=getIntent().getExtras().getString("NombreJ1");
+        sn1=getIntent().getExtras().getString("NombreJ1");
         n1.setText(sn1);
 
         sn2=getIntent().getExtras().getString("NombreJ2");
         n2.setText(sn2);
-    */
+
         //PARA PODER MOVER LAS FICHAS
         viewtablero[0][0] = findViewById(R.id.a1);
         viewtablero[0][1] = findViewById(R.id.b1);

@@ -19,13 +19,7 @@ public class Peon extends Pieza {
         int i = row-1;
         int j = col;
         if (color==0) {
-            createGhost(row-1,col,color,tablero);
-
-
-            if (color== 1 && row==6) {
-                createGhost(row-2,col,color,tablero);
-                createGhost(row-1,col,color,tablero);
-            }
+            createGhost(row - 1, col, color, tablero);
         }
         // si row-1 i col +1 o -1 tiene una pieza del color inverso la podéis comer
 
@@ -35,11 +29,6 @@ public class Peon extends Pieza {
         j = col;
         if (color==1) {
             createGhost(row + 1, col, color, tablero);
-
-            if (color == 0 && row == 1) {
-                createGhost(row + 2, col, color, tablero);
-                createGhost(row + 1, col, color, tablero);
-            }
         }
     }
 
